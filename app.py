@@ -1,6 +1,20 @@
+
 import streamlit as st
 import pickle
 import numpy as np
+
+st.set_page_config(
+    page_title="Diabetes Prediction Using Machine Learning | Saurabh Dahake",
+    page_icon="🩺",
+    layout="centered"
+)
+
+st.title("Diabetes Prediction Using Machine Learning")
+st.header("Diabetes Prediction by Saurabh Dahake")
+st.write(
+    "A Machine Learning web application "
+    "for diabetes prediction using Python."
+)
 
 # Load the trained model
 @st.cache_resource
